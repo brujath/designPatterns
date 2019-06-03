@@ -66,6 +66,9 @@ var MODULE = (function (my) {
 
 var MODULE = (function(obj) {
     //Can again have it's own private state and imports
+
+    //maintain reference to the old method
+    var old_greet = obj.greet;
     
     //add methods to an existing module
     obj.greet = function () {
