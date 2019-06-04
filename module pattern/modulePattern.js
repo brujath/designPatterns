@@ -79,3 +79,14 @@ var MODULE = (function(obj) {
 }(MODULE))
 
 
+//advantages
+/*
+    Gives us ability to have private data and methods.
+*/
+
+//disadvantages
+/*
+    * Whenever we want to change the visibilty, We'll have to make changes to each place where the member was used.
+    * We cannot access private members in methods which are added later on.
+*/
+
